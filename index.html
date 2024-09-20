@@ -31,7 +31,7 @@
 
     <p id="display"></p>
 
-    <p><button>Preview</button></p>
+    <p><button onclick="myFunction(onclick)">Preview</button></p>
     <p class="rgb-code">rgb (255, 255, 0)</p>
     <hr />
 
@@ -43,6 +43,10 @@
     </p>
 
     <script>
+      function myFunction(onclick) {
+        alert("It's a Lie!");
+      }
+
       var r = document.getElementById(redIn);
       var g = document.getElementById(greenIn);
       var b = document.getElementById(blueIn);
